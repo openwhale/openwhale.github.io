@@ -1,1 +1,1 @@
-# openwhale.io
+# ![Open Whale](./resources/openwhale-logo-text.png)
