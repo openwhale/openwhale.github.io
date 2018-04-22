@@ -20,5 +20,6 @@ deploy:
   github-token: $GITHUB_TOKEN
   keep-history: true
   target-branch: master
+  fqdn: openwhale.io
   on:
     tags: true
