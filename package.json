@@ -6,6 +6,12 @@
   "repository": "git@github.com:boyeborg/openwhale.io.git",
   "author": "Open Whale <hello@openwhale.io>",
   "license": "GPL-3.0",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "yarn lint && yarn build",
+    "lint": "eslint src --ext jsx --ext js"
+  },
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
