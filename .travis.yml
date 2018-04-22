@@ -12,11 +12,13 @@ notifications:
   email: false
 branch:
   only:
-    - master
+    - develop
 deploy:
   provider: pages
   skip-cleanup: true
+  local-dir: dist
   github-token: $GITHUB_TOKEN
   keep-history: true
+  target-branch: master
   on:
     tags: true
